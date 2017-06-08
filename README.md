@@ -1,0 +1,1 @@
+# mstest_core_adapter
