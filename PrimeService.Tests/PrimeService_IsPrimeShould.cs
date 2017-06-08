@@ -42,5 +42,12 @@ namespace Prime.UnitTests.Services
 
 			Assert.IsTrue(result, $"{value} should be prime");
 		}
+
+		[Ignore]
+		[TestMethod]
+		public void TestSomething()
+		{
+			Assert.IsTrue(true);
+		}
 	}
 }
