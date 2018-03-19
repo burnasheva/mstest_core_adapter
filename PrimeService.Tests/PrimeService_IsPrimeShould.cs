@@ -18,7 +18,7 @@ namespace Prime.UnitTests.Services
 		{
 			var result = _primeService.IsPrime(1);
 
-			Assert.IsFalse(result, $"1 should not be prime");
+			Assert.IsTrue(result, $"1 should not be prime");
 		}
 
 		[DataTestMethod]
